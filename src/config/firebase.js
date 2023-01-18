@@ -5,12 +5,12 @@ const { getStorage } = require('firebase/storage');
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAaDMAUl5vmSv6GWECPI_aN-trCvDcAVmg",
-  authDomain: "tt-ii-b3735.firebaseapp.com",
-  projectId: "tt-ii-b3735",
-  storageBucket: "tt-ii-b3735.appspot.com",
-  messagingSenderId: "1075476087521",
-  appId: "1:1075476087521:web:46ffc391f34c89d39eada0"
+  apiKey: "AIzaSyCezsUCabNGTdSMXpXUVgmLTAruRkNxGzI",
+  authDomain: "proyecto-tt-ii-b3735.firebaseapp.com",
+  projectId: "proyecto-tt-ii-b3735",
+  storageBucket: "proyecto-tt-ii-b3735.appspot.com",
+  messagingSenderId: "351838744808",
+  appId: "1:351838744808:web:d63ac686f4f34093f2d95d"
 };
 
 
