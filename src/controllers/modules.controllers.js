@@ -115,7 +115,7 @@ modulesController.createNewModule = async (req, res) => {
 
                         if (req.body.cuestionario) {
                             req.flash('success_msg', 'Módulo cargado, ahora puede añadir un cuestionario.');
-                            res.redirect('/modulesCourse/renderTestForm');
+                            res.redirect(`/modulesCourse/renderTestForm/${idModuloTest}`);
                         } else {
                             req.flash('success_msg', 'Módulo creado correctamente.');
                             res.redirect('/viewsAdmi/admi');
